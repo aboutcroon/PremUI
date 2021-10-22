@@ -5,6 +5,7 @@ import Hello from './components/Hello'
 export default defineComponent({
   setup () {
     const count = ref(0)
+    console.log(11)
 
     return () => (
       <div>
